@@ -1,13 +1,13 @@
-#include "AddUser.h"
+#include "Ship.h"
 
 using namespace System;
 using namespace System::Windows::Forms;
 
 [STAThreadAttribute]
-int addUser(array <String^>^ args) {
+int main(array <String^>^ args) {
     Application::EnableVisualStyles();
     Application::SetCompatibleTextRenderingDefault(false);
-    ProjectGUIs::AddUser form;
+    ProjectGUIs::Ship form;
     Application::Run(% form);
     return 0;
 }

@@ -119,12 +119,18 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AddUser.cpp" />
+    <ClCompile Include="AddWarehouse.cpp" />
     <ClCompile Include="Login.cpp" />
     <ClCompile Include="ManageUsers.cpp" />
     <ClCompile Include="ManageWarhouses.cpp" />
+    <ClCompile Include="Order.cpp" />
+    <ClCompile Include="Ship.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AddUser.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="AddWarehouse.h">
       <FileType>CppForm</FileType>
     </ClInclude>
     <ClInclude Include="Login.h">
@@ -136,10 +142,19 @@
     <ClInclude Include="ManageWarhouses.h">
       <FileType>CppForm</FileType>
     </ClInclude>
+    <ClInclude Include="Order.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Ship.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="AddUser.resx">
       <DependentUpon>AddUser.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddWarehouse.resx">
+      <DependentUpon>AddWarehouse.h</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.h</DependentUpon>
@@ -149,6 +164,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ManageWarhouses.resx">
       <DependentUpon>ManageWarhouses.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Order.resx">
+      <DependentUpon>Order.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ship.resx">
+      <DependentUpon>Ship.h</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

@@ -1,13 +1,13 @@
-#include "AddUser.h"
+#include "AddWarehouse.h"
 
 using namespace System;
 using namespace System::Windows::Forms;
 
 [STAThreadAttribute]
-int addUser(array <String^>^ args) {
+int addWarehouse(array <String^>^ args) {
     Application::EnableVisualStyles();
     Application::SetCompatibleTextRenderingDefault(false);
-    ProjectGUIs::AddUser form;
+    ProjectGUIs::AddWarehouse form;
     Application::Run(% form);
     return 0;
 }
