@@ -4,6 +4,7 @@
   ProjectGUIs.ManageUsers.resources - Embedded, ContainedInManifestFile, 
   ProjectGUIs.ManageWarhouses.resources - Embedded, ContainedInManifestFile, 
   ProjectGUIs.Order.resources - Embedded, ContainedInManifestFile, 
+  ProjectGUIs.Ship.resources - Embedded, ContainedInManifestFile, 
 ImageRuntimeVersion: v4.0.30319
 Assembly ProjectGUIs, Version=0.0.*, Culture=Invariant Language (Invariant Country): 
 	hash=SHA1, flags=PublicKey
@@ -35,5 +36,8 @@ Class ProjectGUIs.ManageWarhouses: AutoLayout, AnsiClass, Class, Public, BeforeF
   :System.Windows.Forms.Form
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
 Class ProjectGUIs.Order: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class ProjectGUIs.Ship: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   :System.Windows.Forms.Form
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName

@@ -1,6 +1,3 @@
-﻿  AddUser.cpp
-  AddWarehouse.cpp
-  Order.cpp
-  Generating Code...
+﻿  Ship.cpp
   AddUser.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
   ProjectGUIs.vcxproj -> C:\Users\aavin\OneDrive\Desktop\ProjectGUIs\x64\Debug\ProjectGUIs.exe

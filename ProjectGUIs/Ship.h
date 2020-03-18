@@ -36,7 +36,7 @@ namespace ProjectGUIs {
 		}
 	private: System::Windows::Forms::Button^ backButton;
 	protected:
-	private: System::Windows::Forms::Button^ orderButton;
+	private: System::Windows::Forms::Button^ shipButton;
 	private: System::Windows::Forms::TextBox^ textBox3;
 	private: System::Windows::Forms::NumericUpDown^ numericUpDown3;
 	private: System::Windows::Forms::Label^ label3;
@@ -64,7 +64,7 @@ namespace ProjectGUIs {
 		void InitializeComponent(void)
 		{
 			this->backButton = (gcnew System::Windows::Forms::Button());
-			this->orderButton = (gcnew System::Windows::Forms::Button());
+			this->shipButton = (gcnew System::Windows::Forms::Button());
 			this->textBox3 = (gcnew System::Windows::Forms::TextBox());
 			this->numericUpDown3 = (gcnew System::Windows::Forms::NumericUpDown());
 			this->label3 = (gcnew System::Windows::Forms::Label());
@@ -92,14 +92,14 @@ namespace ProjectGUIs {
 			this->backButton->Text = L"Back";
 			this->backButton->UseVisualStyleBackColor = true;
 			// 
-			// orderButton
+			// shipButton
 			// 
-			this->orderButton->Location = System::Drawing::Point(12, 229);
-			this->orderButton->Name = L"orderButton";
-			this->orderButton->Size = System::Drawing::Size(99, 37);
-			this->orderButton->TabIndex = 26;
-			this->orderButton->Text = L"Order";
-			this->orderButton->UseVisualStyleBackColor = true;
+			this->shipButton->Location = System::Drawing::Point(12, 229);
+			this->shipButton->Name = L"shipButton";
+			this->shipButton->Size = System::Drawing::Size(99, 37);
+			this->shipButton->TabIndex = 26;
+			this->shipButton->Text = L"Ship";
+			this->shipButton->UseVisualStyleBackColor = true;
 			// 
 			// textBox3
 			// 
@@ -187,7 +187,7 @@ namespace ProjectGUIs {
 			// 
 			// _OrderAmmont
 			// 
-			this->_OrderAmmont->Location = System::Drawing::Point(160, 9);
+			this->_OrderAmmont->Location = System::Drawing::Point(159, 9);
 			this->_OrderAmmont->Name = L"_OrderAmmont";
 			this->_OrderAmmont->Size = System::Drawing::Size(120, 26);
 			this->_OrderAmmont->TabIndex = 15;
@@ -205,9 +205,9 @@ namespace ProjectGUIs {
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(9, 20);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
-			this->ClientSize = System::Drawing::Size(295, 273);
+			this->ClientSize = System::Drawing::Size(299, 275);
 			this->Controls->Add(this->backButton);
-			this->Controls->Add(this->orderButton);
+			this->Controls->Add(this->shipButton);
 			this->Controls->Add(this->textBox3);
 			this->Controls->Add(this->numericUpDown3);
 			this->Controls->Add(this->label3);
@@ -222,6 +222,7 @@ namespace ProjectGUIs {
 			this->Controls->Add(this->__Label);
 			this->Name = L"Ship";
 			this->Text = L"Ship";
+			this->Load += gcnew System::EventHandler(this, &Ship::Ship_Load);
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->numericUpDown3))->EndInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->numericUpDown2))->EndInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->numericUpDown1))->EndInit();
@@ -231,5 +232,7 @@ namespace ProjectGUIs {
 
 		}
 #pragma endregion
-	};
+	private: System::Void Ship_Load(System::Object^ sender, System::EventArgs^ e) {
+	}
+};
 }
