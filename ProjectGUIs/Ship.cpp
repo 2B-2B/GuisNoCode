@@ -4,10 +4,10 @@ using namespace System;
 using namespace System::Windows::Forms;
 
 [STAThreadAttribute]
-int main(array <String^>^ args) {
+int ship(array <String^>^ args) {
     Application::EnableVisualStyles();
     Application::SetCompatibleTextRenderingDefault(false);
-    ProjectGUIs::Ship form;
-    Application::Run(% form);
+    ProjectGUIs::Ship ship;
+    Application::Run(% ship);
     return 0;
 }

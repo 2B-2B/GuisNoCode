@@ -120,6 +120,8 @@
   <ItemGroup>
     <ClCompile Include="AddUser.cpp" />
     <ClCompile Include="AddWarehouse.cpp" />
+    <ClCompile Include="AdminConsole.cpp" />
+    <ClCompile Include="Display.cpp" />
     <ClCompile Include="Login.cpp" />
     <ClCompile Include="ManageUsers.cpp" />
     <ClCompile Include="ManageWarhouses.cpp" />
@@ -131,6 +133,12 @@
       <FileType>CppForm</FileType>
     </ClInclude>
     <ClInclude Include="AddWarehouse.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="AdminConsole.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Display.h">
       <FileType>CppForm</FileType>
     </ClInclude>
     <ClInclude Include="Login.h">
@@ -155,6 +163,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="AddWarehouse.resx">
       <DependentUpon>AddWarehouse.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminConsole.resx">
+      <DependentUpon>AdminConsole.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Display.resx">
+      <DependentUpon>Display.h</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.h</DependentUpon>

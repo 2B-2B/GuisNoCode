@@ -7,7 +7,7 @@ using namespace System::Windows::Forms;
 int addUser(array <String^>^ args) {
     Application::EnableVisualStyles();
     Application::SetCompatibleTextRenderingDefault(false);
-    ProjectGUIs::AddUser form;
-    Application::Run(% form);
+    ProjectGUIs::AddUser addUser;
+    Application::Run(% addUser);
     return 0;
 }

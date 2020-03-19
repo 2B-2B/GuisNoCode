@@ -7,7 +7,7 @@ using namespace System::Windows::Forms;
 int addWarehouse(array <String^>^ args) {
     Application::EnableVisualStyles();
     Application::SetCompatibleTextRenderingDefault(false);
-    ProjectGUIs::AddWarehouse form;
-    Application::Run(% form);
+    ProjectGUIs::AddWarehouse addWarehouse;
+    Application::Run(% addWarehouse);
     return 0;
 }

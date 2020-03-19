@@ -1,3 +1,12 @@
-﻿  Ship.cpp
-  AddUser.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
-  ProjectGUIs.vcxproj -> C:\Users\aavin\OneDrive\Desktop\ProjectGUIs\x64\Debug\ProjectGUIs.exe
+﻿  AddUser.cpp
+C:\Users\aavin\OneDrive\Desktop\ProjectGUIs\ProjectGUIs\ManageUsers.h(18,10): error C2143: syntax error: missing ';' before '^'
+C:\Users\aavin\OneDrive\Desktop\ProjectGUIs\ProjectGUIs\ManageUsers.h(18,10): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\aavin\OneDrive\Desktop\ProjectGUIs\ProjectGUIs\ManageUsers.h(18,35): error C2238: unexpected token(s) preceding ';'
+C:\Users\aavin\OneDrive\Desktop\ProjectGUIs\ProjectGUIs\ManageUsers.h(127,3): error C2065: 'addUser': undeclared identifier
+  ManageUsers.cpp
+C:\Users\aavin\OneDrive\Desktop\ProjectGUIs\ProjectGUIs\AddUser.h(18,14): error C2143: syntax error: missing ';' before '^'
+C:\Users\aavin\OneDrive\Desktop\ProjectGUIs\ProjectGUIs\AddUser.h(18,14): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\aavin\OneDrive\Desktop\ProjectGUIs\ProjectGUIs\AddUser.h(18,47): error C2238: unexpected token(s) preceding ';'
+C:\Users\aavin\OneDrive\Desktop\ProjectGUIs\ProjectGUIs\AddUser.h(195,2): error C2065: 'manageUsers': undeclared identifier
+C:\Users\aavin\OneDrive\Desktop\ProjectGUIs\ProjectGUIs\AddUser.h(200,2): error C2065: 'manageUsers': undeclared identifier
+  Generating Code...

@@ -1,13 +1,13 @@
-#include "ManageWarhouses.h"
+#include "AdminConsole.h"
 
 using namespace System;
 using namespace System::Windows::Forms;
 
 [STAThreadAttribute]
-int manageWarhouses(array <String^>^ args) {
+int adminConsole(array <String^>^ args) {
     Application::EnableVisualStyles();
     Application::SetCompatibleTextRenderingDefault(false);
-    ProjectGUIs::ManageWarhouses manageWarhouses;
-    Application::Run(% manageWarhouses);
+    ProjectGUIs::AdminConsole adminConsole;
+    Application::Run(% adminConsole);
     return 0;
 }

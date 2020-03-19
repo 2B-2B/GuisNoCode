@@ -7,7 +7,7 @@ using namespace System::Windows::Forms;
 int order(array <String^>^ args) {
     Application::EnableVisualStyles();
     Application::SetCompatibleTextRenderingDefault(false);
-    ProjectGUIs::Order form;
-    Application::Run(% form);
+    ProjectGUIs::Order order;
+    Application::Run(% order);
     return 0;
 }
