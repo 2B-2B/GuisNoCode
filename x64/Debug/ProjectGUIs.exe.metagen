@@ -1,5 +1,7 @@
   ProjectGUIs.AddUser.resources - Embedded, ContainedInManifestFile, 
   ProjectGUIs.AddWarehouse.resources - Embedded, ContainedInManifestFile, 
+  ProjectGUIs.AdminConsole.resources - Embedded, ContainedInManifestFile, 
+  ProjectGUIs.Display.resources - Embedded, ContainedInManifestFile, 
   ProjectGUIs.Login.resources - Embedded, ContainedInManifestFile, 
   ProjectGUIs.ManageUsers.resources - Embedded, ContainedInManifestFile, 
   ProjectGUIs.ManageWarhouses.resources - Embedded, ContainedInManifestFile, 
@@ -26,7 +28,13 @@ Class ProjectGUIs.AddUser: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
 Class ProjectGUIs.AddWarehouse: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   :System.Windows.Forms.Form
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
-Class ProjectGUIs.ManageWarhouses: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+Class ProjectGUIs.AdminConsole: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class ProjectGUIs.Display: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class ProjectGUIs.Order: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   :System.Windows.Forms.Form
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
 Class ProjectGUIs.Login: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
@@ -35,7 +43,7 @@ Class ProjectGUIs.Login: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
 Class ProjectGUIs.ManageUsers: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   :System.Windows.Forms.Form
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
-Class ProjectGUIs.Order: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+Class ProjectGUIs.ManageWarhouses: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   :System.Windows.Forms.Form
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
 Class ProjectGUIs.Ship: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit

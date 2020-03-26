@@ -1,5 +1,7 @@
 #pragma once
 
+#include <iostream>
+
 namespace ProjectGUIs {
 
 	using namespace System;
@@ -235,6 +237,7 @@ namespace ProjectGUIs {
 			this->Name = L"Order";
 			this->Text = L"Order";
 			this->Load += gcnew System::EventHandler(this, &Order::Order_Load);
+			this->VisibleChanged += gcnew System::EventHandler(this, &Order::Order_VisibleChanged);
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->_OrderAmmont))->EndInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->numericUpDown1))->EndInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->numericUpDown2))->EndInit();
@@ -267,6 +270,9 @@ private: System::Void label2_Click(System::Object^ sender, System::EventArgs^ e)
 private: System::Void label3_Click(System::Object^ sender, System::EventArgs^ e) {
 }
 private: System::Void Order_Load(System::Object^ sender, System::EventArgs^ e) {
+}
+private: System::Void Order_VisibleChanged(System::Object^ sender, System::EventArgs^ e) {
+	std::cout << "Fuck me";
 }
 };
 }

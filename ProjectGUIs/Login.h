@@ -1,5 +1,6 @@
 #pragma once
 #include <iostream>
+#include "Order.h"
 
 namespace ProjectGUIs {
 
@@ -15,6 +16,7 @@ namespace ProjectGUIs {
 	/// </summary>
 	public ref class Login : public System::Windows::Forms::Form
 	{
+		Order^ order = gcnew Order;
 	public:
 		Login(void)
 		{
@@ -136,6 +138,8 @@ namespace ProjectGUIs {
 private: System::Void Login_Load(System::Object^ sender, System::EventArgs^ e) {
 }
 private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e) {
+	order->Show();
+	this->Hide();
 }
 };
 }

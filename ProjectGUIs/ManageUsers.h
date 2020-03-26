@@ -92,7 +92,7 @@ namespace ProjectGUIs {
 			this->removeUserButton->Name = L"removeUserButton";
 			this->removeUserButton->Size = System::Drawing::Size(115, 57);
 			this->removeUserButton->TabIndex = 2;
-			this->removeUserButton->Text = L"Remove";
+			this->removeUserButton->Text = L"Remove User";
 			this->removeUserButton->UseVisualStyleBackColor = true;
 			// 
 			// backButton
